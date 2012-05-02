@@ -1,0 +1,10 @@
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\bin\Release\AlliedSandboxTest.exe.config
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\bin\Release\AlliedSandboxTest.exe
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\bin\Release\AlliedSandboxTest.pdb
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\obj\x86\Release\AlliedSandboxTest.Form1.resources
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\obj\x86\Release\AlliedSandboxTest.Properties.Resources.resources
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\obj\x86\Release\AlliedSandboxTest.exe
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\AlliedSandboxTest\obj\x86\Release\AlliedSandboxTest.pdb

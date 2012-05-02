@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2b85b4a2-5d0c-4646-afdd-bca0c1f4d917" name="Alkazar@MYCOMPUTER 2012-03-30 14:26:28" runUser="MYCOMPUTER\Alkazar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="3e161229-29d7-4c86-b21b-606fedb78d38">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alkazar_MYCOMPUTER 2012-03-30 14_26_28" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-30T14:26:28.4218750+03:00" queuing="2012-03-30T14:26:28.6250000+03:00" start="2012-03-30T14:26:28.6718750+03:00" finish="2012-03-30T14:26:40.3125000+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GUI_AddUser" storage="c:\documents and settings\alkazar\мои документы\visual studio 2010\projects\alliedsandboxtest\testproject1\bin\release\testproject1.dll" id="63cc1806-f320-c7e8-2fb6-849e58ebc0b6">
+      <Execution id="d0fe38b7-fc41-4706-a861-87ddbf8f9f7a" />
+      <TestMethod codeBase="C:/Documents and Settings/Alkazar/мои документы/visual studio 2010/Projects/AlliedSandboxTest/TestProject1/bin/Release/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.GUITest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GUI_AddUser" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63cc1806-f320-c7e8-2fb6-849e58ebc0b6" executionId="d0fe38b7-fc41-4706-a861-87ddbf8f9f7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d0fe38b7-fc41-4706-a861-87ddbf8f9f7a" testId="63cc1806-f320-c7e8-2fb6-849e58ebc0b6" testName="GUI_AddUser" computerName="MYCOMPUTER" duration="00:00:10.1008874" startTime="2012-03-30T14:26:28.6875000+03:00" endTime="2012-03-30T14:26:40.2031250+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0fe38b7-fc41-4706-a861-87ddbf8f9f7a">
+      <Output>
+        <DebugTrace>W, 7096, 26, 2012/03/30, 14:26:33.812, 292255245905174, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Users Management'"
+\0&lt;/a&gt;
+W, 7096, 26, 2012/03/30, 14:26:34.765, 292256824470514, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Create User'"
+\0&lt;/a&gt;
+W, 7096, 26, 2012/03/30, 14:26:35.500, 292258053093884, QTAgent32.exe, Value in en-US resource 'Развернуть' does not match the defaultvalue 'Maximize'
+W, 7096, 26, 2012/03/30, 14:26:35.500, 292258054360854, QTAgent32.exe, Value in en-US resource 'Восстановить' does not match the defaultvalue 'Restore'
+E, 7096, 26, 2012/03/30, 14:26:35.531, 292258109211384, QTAgent32.exe, LoadIEStrings() - Could not find ie resource assembly in ru-RU or ru-RU
+E, 7096, 26, 2012/03/30, 14:26:35.531, 292258109933344, QTAgent32.exe, LoadIEStrings() - Could not find user32 resource assembly in ru-RU or ru-RU
+W, 7096, 26, 2012/03/30, 14:26:36.250, 292259300591954, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] SetValueAsEditBox "Reader2" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 7096, 26, 2012/03/30, 14:26:36.796, 292260206033834, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 7096, 26, 2012/03/30, 14:26:37.328, 292261092522404, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] SendKeys "[*]" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+E, 7096, 26, 2012/03/30, 14:26:38.890, 292263705878614, QTAgent32.exe, &lt;a class=failure&gt;Playback - {6} [FAILED] SetValueAsEditBox "test3@mail.ru" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Primitive "SetValueAsEditBox" did not set the value correctly &gt; (, See related internal warnings/failures for more information)
+\0&lt;/a&gt;
+E, 7096, 26, 2012/03/30, 14:26:39.046, 292263973562034, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPFDC8.png
+\0
+W, 7096, 26, 2012/03/30, 14:26:39.359, 292264487985474, QTAgent32.exe, PERF WARNING: CacheQueryId: took 147 ms. Expected it to take maximum 100 ms.
+W, 7096, 26, 2012/03/30, 14:26:39.500, 292264722211324, QTAgent32.exe, PERF WARNING: CacheQueryId: took 133 ms. Expected it to take maximum 100 ms.
+E, 7096, 26, 2012/03/30, 14:26:39.718, 292265085725734, QTAgent32.exe, AL: Playback Error: Microsoft.VisualStudio.TestTools.UITest.Extension.PlaybackFailureException: Дополнительные сведения Не удается выполнить "SetProperty Text со значением "test3@mail.ru"" для элемента управления.: 
+TechnologyName:  "MSAA"
+ControlType:  "Edit"
+ ---&gt; System.Runtime.InteropServices.COMException: Исключение из HRESULT: 0xF004F006
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IScreenElement.SetValueAsEditBox(String bstrNewValue, Int32 nSetValueAsEditBoxFlag)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.SetValueAsEditBox(String value, Boolean isEncoded, Int32 flag)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.SetValueAsEditBox(String value, Boolean isEncoded)
+   в Microsoft.VisualStudio.TestTools.UITesting.WinPropertyProvider.SetEditProperty(String propertyName, Object value)
+   в Microsoft.VisualStudio.TestTools.UITesting.WinPropertyProvider.SetPropertyValue(UITestControl uiControl, String propertyName, Object value)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.SetPropertyValueWrapper(UITestControl uiControl, String propertyName, Object value)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetPropertyValue(String propertyName, Object propertyValue)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, UITestControl uiControl)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, Object parameterValue, UITestControl uiControl)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetPropertyValue(String propertyName, Object propertyValue)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty(String propertyName, Object value)
+W, 7096, 26, 2012/03/30, 14:26:40.125, 292265773455804, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 7096, 26, 2012/03/30, 14:26:40.125, 292265773818284, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Метод проверки TestProject1.GUITest.GUI_AddUser выдал исключение: Microsoft.VisualStudio.TestTools.UITest.Extension.PlaybackFailureException: Дополнительные сведения Не удается выполнить "SetProperty Text со значением "test3@mail.ru"" для элемента управления.: 
+TechnologyName:  "MSAA"
+ControlType:  "Edit"
+ ---&gt; System.Runtime.InteropServices.COMException: Исключение из HRESULT: 0xF004F006.</Message>
+          <StackTrace>    в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IScreenElement.SetValueAsEditBox(String bstrNewValue, Int32 nSetValueAsEditBoxFlag)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.SetValueAsEditBox(String value, Boolean isEncoded, Int32 flag)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.SetValueAsEditBox(String value, Boolean isEncoded)
+   в Microsoft.VisualStudio.TestTools.UITesting.WinPropertyProvider.SetEditProperty(String propertyName, Object value)
+   в Microsoft.VisualStudio.TestTools.UITesting.WinPropertyProvider.SetPropertyValue(UITestControl uiControl, String propertyName, Object value)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.SetPropertyValueWrapper(UITestControl uiControl, String propertyName, Object value)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetPropertyValue(String propertyName, Object propertyValue)
+ --- Конец трассировки стека внутреннего исключения ---
+    в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, UITestControl uiControl)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, Object parameterValue, UITestControl uiControl)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetPropertyValue(String propertyName, Object propertyValue)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty(String propertyName, Object value)
+   в Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinEdit.set_Text(String value)
+   в TestProject1.UIMap.AddUser() в C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\UIMap.Designer.cs:строка 172
+   в TestProject1.GUITest.GUI_AddUser() в C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\GUITest.cs:строка 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="MYCOMPUTER\GUI_AddUser.png" />
+      </ResultFiles>
+      <ExtensionResult>Адресат вызова создал исключение.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>

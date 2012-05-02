@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c3107e93-1e1e-41cd-bd85-3f0956da3cbb" name="Alkazar@MYCOMPUTER 2012-03-30 14:25:16" runUser="MYCOMPUTER\Alkazar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="3e161229-29d7-4c86-b21b-606fedb78d38">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alkazar_MYCOMPUTER 2012-03-30 14_25_16" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-30T14:25:16.2343750+03:00" queuing="2012-03-30T14:25:35.5625000+03:00" start="2012-03-30T14:25:35.9218750+03:00" finish="2012-03-30T14:26:07.5156250+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GUI_LogIn" storage="c:\documents and settings\alkazar\мои документы\visual studio 2010\projects\alliedsandboxtest\testproject1\bin\release\testproject1.dll" id="077db14c-4215-e685-f0c3-716a74960e8a">
+      <Execution id="f48d6bda-f645-4892-bf8a-f555aaf288db" />
+      <TestMethod codeBase="C:/Documents and Settings/Alkazar/мои документы/visual studio 2010/Projects/AlliedSandboxTest/TestProject1/bin/Release/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.GUITest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GUI_LogIn" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="077db14c-4215-e685-f0c3-716a74960e8a" executionId="f48d6bda-f645-4892-bf8a-f555aaf288db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f48d6bda-f645-4892-bf8a-f555aaf288db" testId="077db14c-4215-e685-f0c3-716a74960e8a" testName="GUI_LogIn" computerName="MYCOMPUTER" duration="00:00:28.8783988" startTime="2012-03-30T14:25:36.0625000+03:00" endTime="2012-03-30T14:26:07.2968750+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f48d6bda-f645-4892-bf8a-f555aaf288db">
+      <Output>
+        <DebugTrace>W, 7096, 15, 2012/03/30, 14:25:44.796, 292173562018294, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] DoubleClick - "[MSAA]ControlType='ListItem' &amp;&amp; Name='SANDBOX.exe'"  &lt; Mouse cursor location (529, 213) &gt;
+\0&lt;/a&gt;
+W, 7096, 15, 2012/03/30, 14:25:48.468, 292179679225214, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Authentication' &amp;&amp; ClassName=&gt;'WindowsForms10.Window'
+\0
+E, 7096, 15, 2012/03/30, 14:25:48.500, 292179739214754, QTAgent32.exe, &lt;a class=failure&gt;Playback - {2} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Authentication' &amp;&amp; ClassName=&gt;'WindowsForms10.Window') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 7096, 15, 2012/03/30, 14:25:48.703, 292180067299614, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPFDC4.png
+\0
+W, 7096, 15, 2012/03/30, 14:25:48.703, 292180067820994, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 7096, 15, 2012/03/30, 14:25:48.703, 292180069578934, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 3795 ms. Expected it to take maximum 500 ms.
+W, 7096, 15, 2012/03/30, 14:25:51.625, 292184930476084, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 2911 ms. Expected it to take maximum 500 ms.
+W, 7096, 15, 2012/03/30, 14:25:52.000, 292185555237634, QTAgent32.exe, Value in en-US resource 'Развернуть' does not match the defaultvalue 'Maximize'
+W, 7096, 15, 2012/03/30, 14:25:52.000, 292185557087184, QTAgent32.exe, Value in en-US resource 'Восстановить' does not match the defaultvalue 'Restore'
+E, 7096, 15, 2012/03/30, 14:25:52.093, 292185728308674, QTAgent32.exe, LoadIEStrings() - Could not find ie resource assembly in ru-RU or ru-RU
+E, 7096, 15, 2012/03/30, 14:25:52.093, 292185729013844, QTAgent32.exe, LoadIEStrings() - Could not find user32 resource assembly in ru-RU or ru-RU
+W, 7096, 15, 2012/03/30, 14:25:53.015, 292187253868134, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] SetValueAsEditBox "Test1" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 7096, 15, 2012/03/30, 14:25:53.578, 292188203915874, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 7096, 15, 2012/03/30, 14:25:54.187, 292189217102474, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] SendKeys "[*]" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 7096, 15, 2012/03/30, 14:25:55.000, 292190552719754, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Connect'"
+\0&lt;/a&gt;
+W, 7096, 15, 2012/03/30, 14:26:02.234, 292202615519614, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Sandbox' &amp;&amp; ClassName=&gt;'WindowsForms10.Window'
+\0
+E, 7096, 15, 2012/03/30, 14:26:02.234, 292202616437594, QTAgent32.exe, &lt;a class=failure&gt;Playback - {7} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Sandbox' &amp;&amp; ClassName=&gt;'WindowsForms10.Window') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 7096, 15, 2012/03/30, 14:26:02.453, 292202969114724, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPFDC7.png
+\0
+W, 7096, 15, 2012/03/30, 14:26:02.453, 292202969672744, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 7096, 15, 2012/03/30, 14:26:02.453, 292202971200204, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 7350 ms. Expected it to take maximum 500 ms.
+W, 7096, 15, 2012/03/30, 14:26:05.000, 292207218766384, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 2547 ms. Expected it to take maximum 500 ms.
+W, 7096, 15, 2012/03/30, 14:26:05.406, 292207909339974, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='TitleBar'"
+\0&lt;/a&gt;
+W, 7096, 15, 2012/03/30, 14:26:06.062, 292209002591204, QTAgent32.exe, &lt;a class=success&gt;Playback - {9} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='StatusBar' &amp;&amp; Name='statusStrip1'"
+\0&lt;/a&gt;
+W, 7096, 15, 2012/03/30, 14:26:06.937, 292210447610304, QTAgent32.exe, &lt;a class=success&gt;Playback - {10} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Text' &amp;&amp; Name='Test1'"
+\0&lt;/a&gt;
+W, 7096, 15, 2012/03/30, 14:26:07.125, 292210758558334, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 7096, 15, 2012/03/30, 14:26:07.125, 292210758912474, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

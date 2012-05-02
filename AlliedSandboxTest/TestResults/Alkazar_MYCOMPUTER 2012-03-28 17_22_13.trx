@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="06d34578-0ae5-4bde-b6ad-441322a22aa2" name="Alkazar@MYCOMPUTER 2012-03-28 17:22:13" runUser="MYCOMPUTER\Alkazar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="3e161229-29d7-4c86-b21b-606fedb78d38">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alkazar_MYCOMPUTER 2012-03-28 17_22_13" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-28T17:22:13.3750000+03:00" queuing="2012-03-28T17:22:13.4062500+03:00" start="2012-03-28T17:22:13.4531250+03:00" finish="2012-03-28T17:22:27.2968750+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\documents and settings\alkazar\мои документы\visual studio 2010\projects\alliedsandboxtest\testproject1\bin\debug\testproject1.dll" id="5dde3252-d11e-4d72-1059-6a1ca942ff60">
+      <Execution id="627d1f90-f6ac-4af9-a373-1e26b2f1ee51" />
+      <TestMethod codeBase="C:/Documents and Settings/Alkazar/мои документы/visual studio 2010/Projects/AlliedSandboxTest/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.GUITest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5dde3252-d11e-4d72-1059-6a1ca942ff60" executionId="627d1f90-f6ac-4af9-a373-1e26b2f1ee51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="627d1f90-f6ac-4af9-a373-1e26b2f1ee51" testId="5dde3252-d11e-4d72-1059-6a1ca942ff60" testName="CodedUITestMethod1" computerName="MYCOMPUTER" duration="00:00:12.2000494" startTime="2012-03-28T17:22:13.4687500+03:00" endTime="2012-03-28T17:22:27.1875000+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="627d1f90-f6ac-4af9-a373-1e26b2f1ee51">
+      <Output>
+        <DebugTrace>W, 3024, 34, 2012/03/28, 17:22:19.000, 21865411052440, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] DoubleClick - "[MSAA]ControlType='ListItem' &amp;&amp; Name='SANDBOX.exe'"  &lt; Mouse cursor location (529, 213) &gt;
+\0&lt;/a&gt;
+W, 3024, 34, 2012/03/28, 17:22:19.859, 21866848658990, QTAgent32.exe, Value in en-US resource 'Развернуть' does not match the defaultvalue 'Maximize'
+W, 3024, 34, 2012/03/28, 17:22:19.859, 21866849910100, QTAgent32.exe, Value in en-US resource 'Восстановить' does not match the defaultvalue 'Restore'
+E, 3024, 34, 2012/03/28, 17:22:19.890, 21866906859200, QTAgent32.exe, LoadIEStrings() - Could not find ie resource assembly in ru-RU or ru-RU
+E, 3024, 34, 2012/03/28, 17:22:19.890, 21866907545420, QTAgent32.exe, LoadIEStrings() - Could not find user32 resource assembly in ru-RU or ru-RU
+W, 3024, 34, 2012/03/28, 17:22:20.468, 21867875282290, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] SetValueAsEditBox "Test1" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 3024, 34, 2012/03/28, 17:22:21.000, 21868753847950, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 3024, 34, 2012/03/28, 17:22:21.500, 21869578210770, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] SendKeys "[*]" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 3024, 34, 2012/03/28, 17:22:22.125, 21870620473230, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Connect'"
+\0&lt;/a&gt;
+W, 3024, 34, 2012/03/28, 17:22:25.687, 21876562924670, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 3463 ms. Expected it to take maximum 500 ms.
+W, 3024, 34, 2012/03/28, 17:22:26.093, 21877231568370, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='TitleBar'"
+\0&lt;/a&gt;
+W, 3024, 34, 2012/03/28, 17:22:27.125, 21878965395050, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 3024, 34, 2012/03/28, 17:22:27.125, 21878965752290, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;statusStrip1&gt;. Фактически: &lt;Test1&gt;. </Message>
+          <StackTrace>   в TestProject1.UIMap.LogIn() в C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\UIMap.Designer.cs:строка 70
+   в TestProject1.GUITest.CodedUITestMethod1() в C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\GUITest.cs:строка 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="MYCOMPUTER\CodedUITestMethod1.png" />
+      </ResultFiles>
+      <ExtensionResult>Адресат вызова создал исключение.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>

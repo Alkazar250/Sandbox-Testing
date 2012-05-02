@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="144fb3cb-cc5a-432d-aa27-016b05c1dafd" name="Alkazar@MYCOMPUTER 2012-03-30 15:01:24" runUser="MYCOMPUTER\Alkazar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="3e161229-29d7-4c86-b21b-606fedb78d38">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alkazar_MYCOMPUTER 2012-03-30 15_01_24" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-30T15:01:24.1718750+03:00" queuing="2012-03-30T15:01:24.3906250+03:00" start="2012-03-30T15:01:24.4531250+03:00" finish="2012-03-30T15:01:37.6718750+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GUI_AddAuthor" storage="c:\documents and settings\alkazar\мои документы\visual studio 2010\projects\alliedsandboxtest\testproject1\bin\release\testproject1.dll" id="b055c28a-e401-7fd3-0284-9eba4602c95d">
+      <Execution id="b9f95494-7aa3-4843-b44b-13a75229a5b6" />
+      <TestMethod codeBase="C:/Documents and Settings/Alkazar/мои документы/visual studio 2010/Projects/AlliedSandboxTest/TestProject1/bin/Release/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.GUITest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GUI_AddAuthor" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b055c28a-e401-7fd3-0284-9eba4602c95d" executionId="b9f95494-7aa3-4843-b44b-13a75229a5b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b9f95494-7aa3-4843-b44b-13a75229a5b6" testId="b055c28a-e401-7fd3-0284-9eba4602c95d" testName="GUI_AddAuthor" computerName="MYCOMPUTER" duration="00:00:11.7497344" startTime="2012-03-30T15:01:24.4531250+03:00" endTime="2012-03-30T15:01:37.5468750+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9f95494-7aa3-4843-b44b-13a75229a5b6">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;Stanislav Lem&gt;. Фактически: &lt;d8cb0d6e-95d1-4c34-9849-c645f514a556&gt;. </Message>
+          <StackTrace>   в TestProject1.UIMap.AddAuthor() в C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\UIMap.Designer.cs:строка 107
+   в TestProject1.GUITest.GUI_AddAuthor() в C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\GUITest.cs:строка 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="MYCOMPUTER\GUI_AddAuthor.png" />
+      </ResultFiles>
+      <ExtensionResult>Адресат вызова создал исключение.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>

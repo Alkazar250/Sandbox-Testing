@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="GetAllBooks" Id="d4cd1321-b2ae-48bb-8092-ba1ecb7c7a6e" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="" StopOnError="False" RecordedResultFile="GetAllBooks.2786a84f-ead2-40b6-bd44-974096111d20.rec.webtestresult">
+  <Items>
+    <Request Method="POST" Version="1.1" Url="http://193.226.64.163/SANDBOXWebServiceDev/Service1.asmx" ThinkTime="0" Timeout="3" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <Headers>
+        <Header Name="SOAPAction" Value="http://tempuri.org/FindBooks" />
+      </Headers>
+      <StringHttpBody ContentType="text/xml" InsertByteOrderMark="False">PAA/AHgAbQBsACAAdgBlAHIAcwBpAG8AbgA9ACIAMQAuADAAIgAgAGUAbgBjAG8AZABpAG4AZwA9ACIAdQB0AGYALQA4ACIAPwA+AA0ACgA8AHMAbwBhAHAAOgBFAG4AdgBlAGwAbwBwAGUAIAB4AG0AbABuAHMAOgB4AHMAaQA9ACIAaAB0AHQAcAA6AC8ALwB3AHcAdwAuAHcAMwAuAG8AcgBnAC8AMgAwADAAMQAvAFgATQBMAFMAYwBoAGUAbQBhAC0AaQBuAHMAdABhAG4AYwBlACIAIAB4AG0AbABuAHMAOgB4AHMAZAA9ACIAaAB0AHQAcAA6AC8ALwB3AHcAdwAuAHcAMwAuAG8AcgBnAC8AMgAwADAAMQAvAFgATQBMAFMAYwBoAGUAbQBhACIAIAB4AG0AbABuAHMAOgBzAG8AYQBwAD0AIgBoAHQAdABwADoALwAvAHMAYwBoAGUAbQBhAHMALgB4AG0AbABzAG8AYQBwAC4AbwByAGcALwBzAG8AYQBwAC8AZQBuAHYAZQBsAG8AcABlAC8AIgA+AA0ACgAgACAAPABzAG8AYQBwADoAQgBvAGQAeQA+AA0ACgAgACAAIAAgADwARgBpAG4AZABCAG8AbwBrAHMAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AdABlAG0AcAB1AHIAaQAuAG8AcgBnAC8AIgAgAC8APgANAAoAIAAgADwALwBzAG8AYQBwADoAQgBvAGQAeQA+AA0ACgA8AC8AcwBvAGEAcAA6AEUAbgB2AGUAbABvAHAAZQA+AA==</StringHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleRequestTime, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Максимальное время запроса" Description="Проверка завершения запроса в течение указанного времени." Level="High" ExectuionOrder="BeforeDependents">
+      <RuleParameters>
+        <RuleParameter Name="MaxRequestTime" Value="1000" />
+      </RuleParameters>
+    </ValidationRule>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleRequiredTag, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Обязательный тег" Description="Проверка существования указанного HTML-тега в ответе." Level="High" ExectuionOrder="BeforeDependents">
+      <RuleParameters>
+        <RuleParameter Name="RequiredTagName" Value="Book" />
+        <RuleParameter Name="MinOccurrences" Value="1" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

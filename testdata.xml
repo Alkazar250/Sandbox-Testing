@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <testSuits>
+    <TestSuit name="GetAllAuthors">
+      <testCases>
+        <TestCase name="GetAllAuthors1">
+          <method>getAllAuthors</method>
+          <attr />
+          <res />
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="CreateAuthor">
+      <testCases>
+        <TestCase name="CreateNewAuthor1">
+          <method>newAuthor</method>
+          <attr>
+            <string>TestAuthor1</string>
+          </attr>
+          <res />
+        </TestCase>
+	  </testCases>
+    </TestSuit>
+	<TestSuit name="DeleteAuthor">
+      <testCases>
+        <TestCase name="DeleteExistingAuthor1">
+          <method>deleteAuthor</method>
+          <attr>
+            <string>5ab6ce01-6fc0-4b1c-8487-226b0a0d3493</string>
+          </attr>
+          <res />
+        </TestCase>
+	  </testCases>
+    </TestSuit>
+    <TestSuit name="GetAuthorByName">
+      <testCases>
+        <TestCase name="GetAuthorByName1">
+          <method>getAuthorByName</method>
+          <attr>
+            <string>Servantes</string>
+          </attr>
+          <res>
+            <string>11c41120-bd07-4004-926b-09ea180a940f</string>
+          </res>
+        </TestCase>
+      </testCases>
+    </TestSuit>
+    <TestSuit name="GetAuthorByID">
+      <testCases>
+        <TestCase name="GetAuthorByID1">
+          <method>getAuthorByID</method>
+          <attr>
+            <string>2df0f399-84d7-4e9d-8c07-b84b5d11e6b3</string>
+          </attr>
+         <res>
+            <string>Stanislav Lem</string>
+          </res>
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="UpdateAuthor">
+      <testCases>
+        <TestCase name="UpdateAuthor1">
+          <method>updateAuthor</method>
+          <attr>
+            <string>65b42afb-8fe5-40a9-bb2a-6bd3298b912d</string>
+			<string>Stanislaw Lem</string>
+			<string>Stanislav Lem</string>
+          </attr>
+         <res>
+            <string>Stanislav Lem</string>
+          </res>
+        </TestCase>
+		<TestCase name="UpdateAuthor2">
+          <method>updateAuthor</method>
+          <attr>
+            <string>2df0f399-84d7-4e9d-8c07-b84b5d11e6b3</string>
+			<string>Stanislav Lem</string>
+			<string>Stanislaw Lem</string>
+          </attr>
+         <res>
+            <string>Stanislaw Lem</string>
+          </res>
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="GetAllUsers">
+      <testCases>
+        <TestCase name="GetAllUsers1">
+          <method>getAllUsers</method>
+          <attr />
+          <res />
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="CreateUser">
+      <testCases>
+        <TestCase name="CreateNewUser1">
+          <method>newUser</method>
+          <attr>
+            <string>Test1</string>
+			<string>Pa$$w0rd</string>
+			<string>test1@mail.ru</string>
+          </attr>
+          <res />
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="RecoverPassword">
+      <testCases>
+        <TestCase name="RecoverPassword">
+          <method>recoverPassword</method>
+          <attr>
+            <string>Test1</string>
+			<string>test1@mail.ru</string>
+          </attr>
+          <res>
+			<string>Pa$$w0rd</string>
+		  </res>
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="GetUser">
+      <testCases>
+        <TestCase name="GetUserByID1">
+          <method>getUser</method>
+          <attr>
+            <string>b38e0a13-4bec-4486-a1b0-253a3f1468ef</string>
+          </attr>
+          <res>
+			<string>Mike</string>
+          </res>
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="GetAllBooks">
+      <testCases>
+        <TestCase name="GetAllBooks1">
+          <method>getAllBooks</method>
+          <attr />      
+          <res />
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="GetAllTransactions">
+      <testCases>
+        <TestCase name="GetAllTransactions1">
+          <method>getAllTransactions</method>
+          <attr />      
+          <res />
+        </TestCase>
+      </testCases>
+    </TestSuit>
+	<TestSuit name="NewTransaction">
+      <testCases>
+        <TestCase name="NewTransactionWrongDates">
+          <method>newTransaction</method>
+          <attr>
+            <string>b38e0a13-4bec-4486-a1b0-253a3f1468ef</string>ID: d5ebf3dd-187c-4303-9c99-98aa76453ad5
+			<string>eefcc5a5-c738-4800-b311-92be9030b029</string>
+			<string>01.01.2010 01:01:00</string>
+			<string>01.01.2000 01:01:00</string>
+			<string>empty</string>
+          </attr>
+          <res />
+        </TestCase>
+		<TestCase name="NewTransactionBookAlreadyTaken">
+          <method>newTransaction</method>
+          <attr>
+            <string>b38e0a13-4bec-4486-a1b0-253a3f1468ef</string>
+			<string>d5ebf3dd-187c-4303-9c99-98aa76453ad5</string>
+			<string>01.01.2010 01:01:00</string>
+			<string>01.01.2000 01:01:00</string>
+			<string>empty</string>
+          </attr>
+          <res />
+        </TestCase>
+      </testCases>
+    </TestSuit>
+  </testSuits>
+</Tests>

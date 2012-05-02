@@ -1,0 +1,7 @@
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Debug\LoadTest1.loadtest
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Debug\WebTest1.webtest
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Debug\TestProject1.dll
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Debug\TestProject1.pdb
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\obj\Debug\TestProject1.dll
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\obj\Debug\TestProject1.pdb

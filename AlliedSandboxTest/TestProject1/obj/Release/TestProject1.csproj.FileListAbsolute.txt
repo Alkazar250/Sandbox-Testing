@@ -1,0 +1,10 @@
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Release\LoadTest1.loadtest
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Release\TestProject1.dll
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Release\TestProject1.pdb
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\obj\Release\TestProject1.dll
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\obj\Release\TestProject1.pdb
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Release\TestProject1.dll.config
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Release\GetAllUsers.webtest
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Release\GetAllAuthors.webtest
+C:\Documents and Settings\Alkazar\мои документы\visual studio 2010\Projects\AlliedSandboxTest\TestProject1\bin\Release\GetAllBooks.webtest
